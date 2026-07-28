@@ -1,0 +1,54 @@
+{
+  "name": "Beanie Day",
+  "short_name": "Beanie Day",
+  "description": "Weekly discovery for Marcus & Chesa — cool brands, new flavours, happy hour, and things to do from Woodlands.",
+  "start_url": "./",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F4F7FB",
+  "theme_color": "#0F766E",
+  "lang": "en-SG",
+  "categories": ["lifestyle", "travel", "food"],
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "This Week",
+      "short_name": "This Week",
+      "url": "./index.html#this-week",
+      "description": "Curated picks for the week"
+    },
+    {
+      "name": "Happy Hour",
+      "short_name": "Happy Hour",
+      "url": "./index.html#happy-hour",
+      "description": "Deals and cold beers"
+    },
+    {
+      "name": "Near Home",
+      "short_name": "Near Home",
+      "url": "./index.html#near-home",
+      "description": "Closer to Woodlands"
+    }
+  ]
+}
